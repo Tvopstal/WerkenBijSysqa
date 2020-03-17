@@ -58,7 +58,7 @@ class Driver_Chrome (webdriver.Chrome):
         logging.info("Setting Driver Options")
         opts = webdriver.ChromeOptions()
         opts.add_argument("--headless")
-        opts.headless = False
+        opts.headless = True
         # opts.add_extension("C:\\Users\\Michiel\\Desktop\\testInlog\\testInlog.crx")
         # opts.log.level = "info"
         # opts.add_experimental_option("detach", True)

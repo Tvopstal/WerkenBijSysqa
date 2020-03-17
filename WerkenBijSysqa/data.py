@@ -9,12 +9,7 @@ homepageDesktopWindowSizeWidth = 1920
 homepageDesktopWindowSizeHeight = 1080
 homepageDesktopLogoTextSize = {'height': 35, 'width': 245}
 homepageDesktopLogoTextPosition = {'x': 352, 'y': 29}
-homepageDesktopLogoImageSize = {'height': 72, 'width': 270}
-homepageDesktopLogoImagePosition = {'x': 928, 'y': 0}
-homepageDesktopIntroTitel1Size = {'height': 49, 'width': 787}
-homepageDesktopIntroTitel1Position = {'x': 558, 'y': 820}
-homepageDesktopIntroText1Size = {'height': 105, 'width': 787}
-homepageDesktopIntroText1Position = {'x': 558, 'y': 880}
+
 
 #dataschermresoluties werkenbij homepagina TABLET
 #1280 800
@@ -22,23 +17,13 @@ homepageTabletWindowSizeWidth = 1280
 homepageTabletWindowSizeHeight = 800
 homepageTabletLogoTextSize = {'height': 35, 'width': 245}
 homepageTabletLogoTextPosition = {'x': 32, 'y': 29}
-homepageTabletLogoImageSize = {'height': 72, 'width': 270}
-homepageTabletLogoImagePosition = {'x': 608, 'y': 0}
-homepageTabletIntroTitel1Size = {'height': 49, 'width': 775}
-homepageTabletIntroTitel1Position = {'x': 244, 'y': 820}
-homepageTabletIntroText1Size = {'height': 105, 'width': 775}
-homepageTabletIntroText1Position = {'x': 244, 'y': 880}
+
 
 #dataschermresoluties werkenbij homepagina MOBILE
 #1280 800
 homepageMobileWindowSizeWidth = 720
 homepageMobileWindowSizeHeight = 1280
-homepageMobileLogoImageSize = {'height': 72, 'width': 270}
-homepageMobileLogoImagePosition = {'x': 216, 'y': 0}
-homepageMobileIntroTitel1Size = {'height': 36, 'width': 673}
-homepageMobileIntroTitel1Position = {'x': 15, 'y': 748}
-homepageMobileIntroText1Size = {'height': 96, 'width': 673}
-homepageMobileIntroText1Position = {'x': 15, 'y': 795}
+
 
 #data voor Sysqapagina
 werkenBijSysqaPaginaHome = "https://uwbusinessonline.site/werkenbijsysqa-dev.nl/"
@@ -46,9 +31,16 @@ werkenBijSysqaPaginaVacatures = "https://uwbusinessonline.site/werkenbijsysqa-de
 werkenBijSysqaPaginaVerhalen = "https://uwbusinessonline.site/werkenbijsysqa-dev.nl/verhalen-en-videos"
 werkenBijSysqaPaginaKennismaken = "https://uwbusinessonline.site/werkenbijsysqa-dev.nl/kennismaken"
 werkenBijSysqaPaginaKennismaken2 = "https://uwbusinessonline.site/werkenbijsysqa-dev.nl/kennismaken/"
+werkenBijSysqaPaginaKennismakenFooter = "https://uwbusinessonline.site/werkenbijsysqa-dev.nl/kennismaken-met-sysqa"
 werkenBijSysqaPaginaVerhalenEnVideos = "https://uwbusinessonline.site/werkenbijsysqa-dev.nl/verhalen-en-videos/"
 werkenBijSysqaPaginaQuiz = "https://uwbusinessonline.site/werkenbijsysqa-dev.nl/quiz"
 werkenBijSysqaTelefoonNummer = "tel:088 028 0899"
+werkenBijSysqaAdres = "https://www.google.com/maps/dir/?api=1&destination=Regulierenring+10,+3981LB+Bunnik&travelmode=driving"
+werkenBijSysqaCorporateWebsite = "https://www.sysqa.nl/"
+werkenBijSysqaGoogleMaps = "https://goo.gl/maps/bZpgukshDqG3KVSc8"
+werkenBijSysqaMail = "mailto:werken@sysqa.nl"
+
+
 sysqaSlogan1 = "WERKEN IN"
 sysqaSlogan2 = "BUSINESS EN IT"
 sysqaSlogan3 = "Verbeter de digitale wereld"
@@ -68,4 +60,26 @@ homeButtonFooter = "HOME"
 vacaturesButtonFooter = "VACATURES"
 verhalenEnVideosButtonFooter = "VERHALEN EN VIDEO’S"
 kennismakenButtonFooter = "KENNISMAKEN"
+adresButtonFooter = "Regulierenring 10\n3981LB Bunnik"
+corporateWebsiteButtonFooter = "Corporate website"
+googleMapsButtonFooter = "Google Maps"
+telefoonNummerButtonFooter = "088 028 0899"
+mailButtonFooter = "werken@sysqa.nl"
+aanmeldenNieuwsBriefButtonFooter = "AANMELDEN NIEUWSBRIEF"
+nieuwsbriefPopupVisible = "box news-letter color-background-main color-text-light py-3 px-4"
+nieuwsbriefPopupText = "UPDATES ONTVANGEN?\nOntvang maandelijks de nieuwste verhalen uit onze wereld en een overzicht van onze vacatures in je mailbox!"
+nieuwsbriefPopupNaamText = "voor- en achternaam"
+nieuwsbriefPopupEmailText = "e-mailadres"
+nieuwsbriefPopupVerstuurText = "VERSTUREN"
+nieuwsbriefPopupVerificatieText = "Bedankt voor je inschrijving!"
+werkenBijSysqaInstagram = "https://www.instagram.com/sysqa_bv/?hl=nl"
+werkenBijSysqaLinkedin = "https://www.linkedin.com/company/sysqa/?originalSubdomain=nl"
+werkenBijSysqaTwitter = "https://twitter.com/sysqa_bv"
+werkenBijSysqaFacebook = "https://www.facebook.com/SYSQA/"
+
+
+
+
+
+
 

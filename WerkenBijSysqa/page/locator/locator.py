@@ -14,7 +14,7 @@ class WerkenBijSysqaGUI ():
     SYSQA_SLOGAN_3 = (By.XPATH, "/html/body/div/div/div/div/div/div/div/div/div/h3")
     SYSQA_KENNISMAKEN_BUTTON = (By.XPATH, "//a[@class='button button-alt mt-5']")
     SYSQA_TITEL = (By.XPATH, "/html/body/div/div/div/div[2]/div/h2")
-    SYSQA_TEXT_1 = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/p[1]")
+    SYSQA_TEXT_1 = (By.XPATH, "//p[contains(text(),'Wij verbeteren de digitale wereld! Met slimme Youn')]")
     SYSQA_KOP_TITEL = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/h3")
     SYSQA_TEXT_2 = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/p[2]")
     SYSQA_VACATURES_TITEL = (By.XPATH, "/html/body/div/div/div/div[3]/h2")
@@ -34,4 +34,31 @@ class WerkenBijSysqaGUI ():
     SYSQA_VERHALEN_EN_VIDEOS_BUTTON_FOOTER_TEKST = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/ul/li[3]/a")
     SYSQA_KENNISMAKEN_BUTTON_FOOTER = (By.XPATH, "//ul[@class='mt-4']//div[contains(text(),'Kennismaken')]")
     SYSQA_KENNISMAKEN_BUTTON_FOOTER_TEKST = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/ul/li[4]/a")
-    SYSQA_CONTACT_ADRES_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div/div[2]/a[1]")
+    SYSQA_CONTACT_ADRES_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div/div[2]/a")
+    SYSQA_CORPORATE_WEBSITE_BUTTON_FOOTER = (By.XPATH, "//a[contains(text(),'Corporate website')]")
+    SYSQA_GOOGLE_MAPS_BUTTON_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div/div[3]/div[2]/a")
+    SYSQA_TELEFOON_NUMMER_BUTTON_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div/div[3]/div[3]/a")
+    SYSQA_MAIL_BUTTON_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div/div[3]/div[4]/a")
+    SYSQA_AANMELDEN_NIEUWSBRIEF_BUTTON_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div[2]/button/span")
+    SYSQA_NIEUWSBRIEF_POPUP = (By.XPATH, "/html/body/div/div/div[3]")
+    SYSQA_NIEUWSBRIEF_POPUP_TEXT = (By.XPATH, "//div[@class='pr-5']")
+    SYSQA_NIEUWSBRIEF_POPUP_NAAM = (By.ID, "input_1")
+    SYSQA_NIEUWSBRIEF_POPUP_EMAIL = (By.ID, "input_2")
+    SYSQA_NIEUWSBRIEF_POPUP_ACCEPTEER = (By.ID, "input_accept")
+    SYSQA_NIEUWSBRIEF_POPUP_VERSTUUR = (By.XPATH, "//button[@class='button form-submit']")
+    SYSQA_NIEUWSBRIEF_POPUP_VERIFICATIE = (By.ID, "gform_confirmation_message_4")
+    SYSQA_SOCIAL_MEDIA_INSTAGRAM_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[1]")
+    SYSQA_SOCIAL_MEDIA_LINKEDIN_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[2]")
+    SYSQA_SOCIAL_MEDIA_TWITTER_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[3]")
+    SYSQA_SOCIAL_MEDIA_FACEBOOK_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[4]")
+
+
+
+
+
+
+
+
+
+
+
