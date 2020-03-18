@@ -1,1 +1,4 @@
 from .WerkenBijSysqa import WerkenBijSysqa
+from .WerkenBijSysqaVacatures import WerkenBijSysqaVacatures
+from .WerkenBijSysqaKennismaken import WerkenBijSysqaKennismaken
+from .WerkenBijSysqaVerhalen import WerkenBijSysqaVerhalen

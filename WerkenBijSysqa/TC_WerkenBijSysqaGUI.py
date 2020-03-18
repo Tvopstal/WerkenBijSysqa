@@ -67,6 +67,9 @@ class WerkenBijSysqaGUI (CommonTestCase):
         #Gebruiker controleert of het telefoonnummer correct werkt
         sysqa.check_navigatie_telefoon_button(tel_nummer)
 
+        #Gebruiker controleert of de Kennismaken Zijkant Button correct is
+        sysqa.check_kennismaken_zijkant_button(link_kennismaken_URL2)
+
         #Gebruiker controleert of de slogan correct is
         sysqa.check_sysqa_slogan_1()
         sysqa.check_sysqa_slogan_2()

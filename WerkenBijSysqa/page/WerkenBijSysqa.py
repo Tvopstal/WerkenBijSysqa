@@ -129,6 +129,32 @@ class WerkenBijSysqa (BasePage):
         else:
             print ("ERROR: Telefoon nummer is niet correct")
 
+    def check_kennismaken_zijkant_button (self, link_URL):
+        logging.info("Er wordt gecontroleerd of de Kennismaken zijkant button correct werkt")
+        element = (self.find_element_boolean(loc.WerkenBijSysqaGUI.SYSQA_ZIJKANT_KENNISMAKEN_BUTTON))
+        if element == True:
+            print("CORRECT: Kennismaken zijkant button is aanwezig op pagina")
+            if self.return_clickable(loc.WerkenBijSysqaGUI.SYSQA_ZIJKANT_KENNISMAKEN_BUTTON) == True:
+                print ("CORRECT: Kennismaken zijkant button is aanklikbaar")
+            elif self.return_clickable(loc.WerkenBijSysqaGUI.SYSQA_ZIJKANT_KENNISMAKEN_BUTTON) == False:
+                print ("ERROR: Kennismaken zijkant button is niet aanklikbaar")
+        elif element == False:
+            print ("ERROR: Kennismaken zijkant button is niet aanwezig op pagina")
+        element2 = (self.find(loc.WerkenBijSysqaGUI.SYSQA_ZIJKANT_KENNISMAKEN_BUTTON))
+        link = element2.get_attribute("href")
+        print (link)
+        if link == link_URL:
+            print ("CORRECT: Link is correct")
+        else:
+            print ("ERROR: Link is niet correct")
+        element3 = (self.find(loc.WerkenBijSysqaGUI.SYSQA_ZIJKANT_KENNISMAKEN_BUTTON))
+        print(element3.text)
+        if element3.text == data.kennismakenButtonZijkant:
+            print("CORRECT: Text is correct")
+        else:
+            print("ERROR: Text is niet correct")
+
+
     def check_sysqa_slogan_1 (self):
         logging.info("Er wordt gecontroleerd of de Slogan 1 correct is")
         element = (self.find_element_boolean(loc.WerkenBijSysqaGUI.SYSQA_SLOGAN_1))
