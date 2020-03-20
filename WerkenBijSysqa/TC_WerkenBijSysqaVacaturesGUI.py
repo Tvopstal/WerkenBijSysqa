@@ -49,7 +49,10 @@ class WerkenBijSysqaVacaturesGUI (CommonTestCase):
         size = self.driver.get_window_size()
         print (size)
         
-        #Gebruiker controleert of het SYSQA logo correct werkt
+        #Gebruiker accepteert cookies
+        sysqa.accept_cookies()
+
+        #Gebruiker controleert of het SYSQA logo correct werkt 
         sysqa.check_navigatie_sysqa_logo(link_home_URL)
 
         #Gebruiker controleert of de Home button correct werkt 
@@ -69,6 +72,24 @@ class WerkenBijSysqaVacaturesGUI (CommonTestCase):
 
         #Gebruiker controleert of de Kennismaken Zijkant Button correct is
         sysqa.check_kennismaken_zijkant_button(link_kennismaken_URL2)
+
+        #Gebruiker controleert of de slogan correct is
+        vacatures.check_slogan_1()
+        vacatures.check_slogan_2()
+
+        #Gebruiker controleert of de vacature buttons correct zijn:
+        vacatures.check_bekijk_vacature_button_1()
+        vacatures.check_bekijk_vacature_button_2()
+        vacatures.check_bekijk_vacature_button_3()
+        vacatures.check_bekijk_vacature_button_4()
+        vacatures.check_bekijk_vacature_button_5()
+        vacatures.check_bekijk_vacature_button_6()
+
+        #Gebruiker controleert of de kennismaken midden correct is:
+        vacatures.check_kennismaken_slogan()
+        vacatures.check_kennismaken_button_midden(link_kennismaken_footer_URL)
+
+
 
         #Gebruiker controleert of de Doe de Test button correct werkt/is
         sysqa.check_sysqa_quiz_button_footer(link_quiz_URL)

@@ -9,7 +9,9 @@ class WerkenBijSysqaGUI ():
     SYSQA_NAV_VERHALEN_BUTTON = (By.XPATH, "/html/body/div/div/nav/div/ul/li[3]/a")
     SYSQA_NAV_KENNISMAKEN_BUTTON = (By.XPATH, "/html/body/div/div/nav/div/ul/li[4]/a")
     SYSQA_NAV_TELEFOON_BUTTON = (By.XPATH, "/html/body/div/div/nav/div/ul/li[5]/a")
-    
+    SYSQA_COOKIES_ACCEPT = (By.ID, "CybotCookiebotDialogBodyLevelButtonAccept")
+
+
     SYSQA_ZIJKANT_KENNISMAKEN_BUTTON = (By.XPATH, "/html/body/div/div/a[1]")
     SYSQA_SLOGAN_1 = (By.XPATH, "//strong[contains(text(),'Werken in')]")
     SYSQA_SLOGAN_2 = (By.XPATH, "//strong[contains(text(),'Business en IT')]")
@@ -41,7 +43,7 @@ class WerkenBijSysqaGUI ():
     SYSQA_GOOGLE_MAPS_BUTTON_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div/div[3]/div[2]/a")
     SYSQA_TELEFOON_NUMMER_BUTTON_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div/div[3]/div[3]/a")
     SYSQA_MAIL_BUTTON_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div/div[3]/div[4]/a")
-    SYSQA_AANMELDEN_NIEUWSBRIEF_BUTTON_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div[2]/button/span")
+    SYSQA_AANMELDEN_NIEUWSBRIEF_BUTTON_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div[2]/button")
     SYSQA_NIEUWSBRIEF_POPUP = (By.XPATH, "/html/body/div/div/div[3]")
     SYSQA_NIEUWSBRIEF_POPUP_TEXT = (By.XPATH, "//div[@class='pr-5']")
     SYSQA_NIEUWSBRIEF_POPUP_NAAM = (By.ID, "input_1")
@@ -55,9 +57,17 @@ class WerkenBijSysqaGUI ():
     SYSQA_SOCIAL_MEDIA_FACEBOOK_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[4]")
 
 class WerkenBijSysqaVacaturesGUI ():
+    SYSQA_VACATURES_SLOGAN_1 = (By.XPATH, "//strong[contains(text(),'ONZE VACATURES')]")
+    SYSQA_VACATURES_SLOGAN_2 = (By.XPATH, "//h3[@class='banner-home-slogan mt-2 font-weight-s font-size-xl']")
+    SYSQA_VACATURES_BEKIJK_VACATURE_1 = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/a/div[2]/div[2]/div")
+    SYSQA_VACATURES_BEKIJK_VACATURE_2 = (By.XPATH, "/html/body/div/div/div/div[2]/div/div[2]/a/div[2]/div[2]/div")
+    SYSQA_VACATURES_BEKIJK_VACATURE_3 = (By.XPATH, "/html/body/div/div/div/div[2]/div/div[3]/a/div[2]/div[2]/div")
+    SYSQA_VACATURES_BEKIJK_VACATURE_4 = (By.XPATH, "/html/body/div/div/div/div[2]/div/div[4]/a/div[2]/div[2]/div")
+    SYSQA_VACATURES_BEKIJK_VACATURE_5 = (By.XPATH, "/html/body/div/div/div/div[2]/div/div[5]/a/div[2]/div[2]/div")
+    SYSQA_VACATURES_BEKIJK_VACATURE_6 = (By.XPATH, "/html/body/div/div/div/div[2]/div/div[6]/a/div[2]/div[2]/div")
+    SYSQA_VACATURES_KENNISMAKEN_SLOGAN = (By.XPATH, "//p[contains(text(),'Klaar voor je volgende stap?')]")
+    SYSQA_VACATURES_KENNISMAKEN_BUTTON_MIDDEN = (By.XPATH, "/html/body/div/div/div/div[3]/div/div/div/div[2]/a")
     
-
-
 
 
 

@@ -14,3 +14,6 @@ class WerkenBijSysqaVerhalen (BasePage):
         link = data.werkenBijSysqaPaginaVerhalenEnVideos
         logging.info(f"Startpagina WerkenbijSysqa wordt geopend:{link}")
         self.driver.get(link) 
+
+    
+    

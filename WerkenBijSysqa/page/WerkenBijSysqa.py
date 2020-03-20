@@ -15,6 +15,17 @@ class WerkenBijSysqa (BasePage):
         logging.info(f"Startpagina WerkenbijSysqa wordt geopend:{link}")
         self.driver.get(link) 
 
+    def accept_cookies (self):
+        logging.info("Cookies worden geaccepteerd")
+        element = self.find_element_boolean(loc.WerkenBijSysqaGUI.SYSQA_COOKIES_ACCEPT)
+        if element == True:
+            print("CORRECT: Cookie banner is aanwezig, cookies worden geaccepteerd")
+            element2 = self.find(loc.WerkenBijSysqaGUI.SYSQA_COOKIES_ACCEPT)
+            element2.click()
+        else:
+            print("Cookies niet aanwezig, test gaat door")
+            pass
+
     def check_navigatie_sysqa_logo (self, link_URL):
         logging.info("Er wordt gecontroleerd of het Sysqa logo correct werkt")
         element = (self.find_element_boolean(loc.WerkenBijSysqaGUI.SYSQA_NAV_LOGO))
