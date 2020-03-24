@@ -52,6 +52,9 @@ class WerkenBijSysqaKennismakenGUI (CommonTestCase):
         size = self.driver.get_window_size()
         print (size)
         
+        #Gebruiker accepteert cookies
+        sysqa.accept_cookies()
+
         #Gebruiker controleert of het SYSQA logo correct werkt
         sysqa.check_navigatie_sysqa_logo(link_home_URL)
 
@@ -69,6 +72,8 @@ class WerkenBijSysqaKennismakenGUI (CommonTestCase):
 
         #Gebruiker controleert of het telefoonnummer correct werkt
         sysqa.check_navigatie_telefoon_button(tel_nummer)
+
+        
 
         #Gebruiker controleert of de Doe de Test button correct werkt/is
         sysqa.check_sysqa_quiz_button_footer(link_quiz_URL)

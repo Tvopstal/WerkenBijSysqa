@@ -89,7 +89,14 @@ class WerkenBijSysqaVacaturesGUI (CommonTestCase):
         vacatures.check_kennismaken_slogan()
         vacatures.check_kennismaken_button_midden(link_kennismaken_footer_URL)
 
+        #Gebruiker controleert of de Stories Titel correct is
+        vacatures.check_vacatures_strories_titel()
 
+        #Gebruiker controleert of de Storie buttons correct zijn
+        vacatures.check_stories_bekijk_1()
+        vacatures.check_stories_bekijk_2()
+        vacatures.check_stories_bekijk_3()
+        vacatures.check_stories_bekijk_alles()
 
         #Gebruiker controleert of de Doe de Test button correct werkt/is
         sysqa.check_sysqa_quiz_button_footer(link_quiz_URL)

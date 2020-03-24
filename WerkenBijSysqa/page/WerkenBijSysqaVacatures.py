@@ -190,4 +190,88 @@ class WerkenBijSysqaVacatures (BasePage):
         else:
             print("ERROR: Text is niet correct")
 
+    def check_vacatures_strories_titel (self):
+        logging.info("Er wordt gecontroleerd of de Vacatures Stories Titel correct is")
+        element = (self.find_element_boolean(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_TITEL))
+        if element == True:
+            print("CORRECT: Vacatures Stories Titel is aanwezig op pagina")
+            element3 = (self.find(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_TITEL))
+            print(element3.text)
+            if element3.text == data.vacaturesStoriesTitel:
+                print("CORRECT: Text is correct")
+            else:
+                print("ERROR: Text is niet correct")
+        else:
+            print("ERROR: Vacatures Stories Titel is niet aanwezig op pagina")
+
+    def check_stories_bekijk_1 (self):
+        logging.info("Er wordt gecontroleerd of de Bekijk Stories 1 button correct werkt")
+        element = (self.find_element_boolean(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_1))
+        if element == True:
+            print("CORRECT: Bekijk Stories 1 button is aanwezig op pagina")
+            if self.return_clickable(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_1) == True:
+                print ("CORRECT: Bekijk Stories 1 button is aanklikbaar")
+            elif self.return_clickable(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_1) == False:
+                print ("ERROR: Bekijk Stories 1 button is niet aanklikbaar")
+        elif element == False:
+            print ("ERROR: Bekijk Stories 1 button is niet aanwezig op pagina")
+        element3 = (self.find(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_1))
+        text = element3.text
+        if text == data.vacaturesLeesDitVerhaalButton:
+            print("CORRECT: Text is correct")
+        else:
+            print("ERROR: Text is niet correct")
     
+    def check_stories_bekijk_2 (self):
+        logging.info("Er wordt gecontroleerd of de Bekijk Stories 2 button correct werkt")
+        element = (self.find_element_boolean(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_2))
+        if element == True:
+            print("CORRECT: Bekijk Stories 2 button is aanwezig op pagina")
+            if self.return_clickable(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_2) == True:
+                print ("CORRECT: Bekijk Stories 2 button is aanklikbaar")
+            elif self.return_clickable(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_2) == False:
+                print ("ERROR: Bekijk Stories 2 button is niet aanklikbaar")
+        elif element == False:
+            print ("ERROR: Bekijk Stories 2 button is niet aanwezig op pagina")
+        element3 = (self.find(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_2))
+        text = element3.text
+        if text == data.vacaturesLeesDitVerhaalButton:
+            print("CORRECT: Text is correct")
+        else:
+            print("ERROR: Text is niet correct")
+
+    def check_stories_bekijk_3 (self):
+        logging.info("Er wordt gecontroleerd of de Bekijk Stories 3 button correct werkt")
+        element = (self.find_element_boolean(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_3))
+        if element == True:
+            print("CORRECT: Bekijk Stories 3 button is aanwezig op pagina")
+            if self.return_clickable(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_3) == True:
+                print ("CORRECT: Bekijk Stories 3 button is aanklikbaar")
+            elif self.return_clickable(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_3) == False:
+                print ("ERROR: Bekijk Stories 3 button is niet aanklikbaar")
+        elif element == False:
+            print ("ERROR: Bekijk Stories 3 button is niet aanwezig op pagina")
+        element3 = (self.find(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_STORIES_BEKIJK_3))
+        text = element3.text
+        if text == data.vacaturesLeesDitVerhaalButton:
+            print("CORRECT: Text is correct")
+        else:
+            print("ERROR: Text is niet correct")
+
+    def check_stories_bekijk_alles (self):
+        logging.info("Er wordt gecontroleerd of de Bekijk alle Stories button correct werkt")
+        element = (self.find_element_boolean(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_ALLE_STORIES))
+        if element == True:
+            print("CORRECT: Bekijk alle Stories button is aanwezig op pagina")
+            if self.return_clickable(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_ALLE_STORIES) == True:
+                print ("CORRECT: Bekijk alle Stories button is aanklikbaar")
+            elif self.return_clickable(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_ALLE_STORIES) == False:
+                print ("ERROR: Bekijk alle Stories button is niet aanklikbaar")
+        elif element == False:
+            print ("ERROR: Bekijk alle Stories button is niet aanwezig op pagina")
+        element3 = (self.find(loc.WerkenBijSysqaVacaturesGUI.SYSQA_VACATURES_ALLE_STORIES))
+        text = element3.text
+        if text == data.vacaturesLeesAlleVerhalenButton:
+            print("CORRECT: Text is correct")
+        else:
+            print("ERROR: Text is niet correct")

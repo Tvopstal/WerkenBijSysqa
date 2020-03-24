@@ -22,8 +22,9 @@ class WerkenBijSysqaVerhalenGUI (CommonTestCase):
 
         link_home_URL = data.werkenBijSysqaPaginaHome
         link_vacatures_URL = data.werkenBijSysqaPaginaVacatures
+        link_vacatures_URL2 = data.werkenBijSysqaPaginaVacatures2
         link_verhalen_URL = data.werkenBijSysqaPaginaVerhalen
-        # link_kennismaken_URL = data.werkenBijSysqaPaginaKennismaken
+        link_kennismaken_URL = data.werkenBijSysqaPaginaKennismaken
         link_kennismaken_URL2 = data.werkenBijSysqaPaginaKennismaken2
         link_kennismaken_footer_URL = data.werkenBijSysqaPaginaKennismakenFooter
         tel_nummer = data.werkenBijSysqaTelefoonNummer
@@ -49,6 +50,9 @@ class WerkenBijSysqaVerhalenGUI (CommonTestCase):
         self.driver.set_window_position(0,0)
         size = self.driver.get_window_size()
         print (size)
+
+        #Gebruiker accepteert cookies
+        sysqa.accept_cookies()
         
         #Gebruiker controleert of het SYSQA logo correct werkt
         sysqa.check_navigatie_sysqa_logo(link_home_URL)
@@ -70,6 +74,35 @@ class WerkenBijSysqaVerhalenGUI (CommonTestCase):
 
         #Gebruiker controleert of de Kennismaken Zijkant Button correct is
         sysqa.check_kennismaken_zijkant_button(link_kennismaken_URL2)
+
+        #Gebruiker controleert of de Verhalen Slogan correct is
+        verhalen.check_verhalen_slogan_1()
+        verhalen.check_verhalen_slogan_2()
+
+        #Gebruiker controleert of de Verhalen Searchbar correct is
+        verhalen.check_verhalen_search_bar()
+        verhalen.check_verhalen_search_button()
+
+        #Gebruiker contoleert of de onderwerpen correct zijn
+        verhalen.check_verhalen_onderwerp_titel()
+        verhalen.check_verhalen_onderwerp_button_1()
+        verhalen.check_verhalen_onderwerp_button_2()
+        verhalen.check_verhalen_onderwerp_button_3()
+        verhalen.check_verhalen_onderwerp_button_4()
+        verhalen.check_verhalen_onderwerp_button_5()
+        verhalen.check_verhalen_onderwerp_button_6()
+        verhalen.check_verhalen_onderwerp_laad_button()
+
+        #Gebruiker controleert of de Kennismaken slogan en Button correct zijn
+        verhalen.check_verhalen_kennismaken_slogan_midden()
+        verhalen.check_verhalen_kennismaken_button_midden(link_kennismaken_URL)
+
+        #Gebruiker controleert of het Vacature deel correct is
+        verhalen.check_verhalen_vacature_slogan()
+        verhalen.check_verhalen_vacature_1()
+        verhalen.check_verhalen_vacature_2()
+        verhalen.check_verhalen_vacature_3()
+        verhalen.check_verhalen_vacature_laad_meer(link_vacatures_URL2)
 
         #Gebruiker controleert of de Doe de Test button correct werkt/is
         sysqa.check_sysqa_quiz_button_footer(link_quiz_URL)
