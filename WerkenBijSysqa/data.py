@@ -34,6 +34,7 @@ werkenBijSysqaPaginaKennismaken = "https://www.werkenbijsysqa.nl/kennismaken-met
 werkenBijSysqaPaginaKennismaken2 = "https://www.werkenbijsysqa.nl/kennismaken-met-sysqa"
 werkenBijSysqaPaginaKennismakenFooter = "https://www.werkenbijsysqa.nl/kennismaken-met-sysqa"
 werkenBijSysqaPaginaVerhalenEnVideos = "https://www.werkenbijsysqa.nl/verhalen-en-videos"
+werkenbijSysqaPaginaPrivacy = "https://www.werkenbijsysqa.nl/privacy-policy/"
 werkenBijSysqaPaginaQuiz = "https://www.werkenbijsysqa.nl/quiz"
 werkenBijSysqaTelefoonNummer = "tel:088 028 0899"
 werkenBijSysqaAdres = "https://www.google.com/maps/dir/?api=1&destination=Regulierenring+10,+3981LB+Bunnik&travelmode=driving"
@@ -115,7 +116,18 @@ verhalenOnderwerpLaadMeer = "LAAD MEER STORIES"
 
 verhalenVacatureSlogan = "ONZE VACATURESYOUR NEXT STEP"
 
+#Kennismaken pagina
+kennismakenSlogan = "GEWOON EVEN\n \nKENNISMAKEN"
 
+kennismakenFormulierNaam = "Voor- en achternaam *"
+kennismakenFormulierEmail = "E-mailadres *"
+kennismakenFormulierBericht = "Bericht *"
+kennismakenFormulierVoorwaarden = "Ik accepteer de voorwaarden. *"
+kennismakenFormulierVerstuur = "VERSTUREN"
+
+kennismakenUpdatesSlogan = "UPDATES ONTVANGEN?"
+kennismakenUpdatesText = "Ontvang maandelijks de nieuwste verhalen uit onze wereld en een overzicht van onze vacatures in je mailbox!"
+kennismakenAanmeldenNieuwsbrief = "AANMELDEN NIEUWSBRIEF"
 
 
 

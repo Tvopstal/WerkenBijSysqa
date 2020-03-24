@@ -28,6 +28,7 @@ class WerkenBijSysqaKennismakenGUI (CommonTestCase):
         link_kennismaken_footer_URL = data.werkenBijSysqaPaginaKennismakenFooter
         tel_nummer = data.werkenBijSysqaTelefoonNummer
         # link_verhalen_en_videos_URL = data.werkenBijSysqaPaginaVerhalenEnVideos
+        link_privacy_URL = data.werkenbijSysqaPaginaPrivacy
         link_quiz_URL = data.werkenBijSysqaPaginaQuiz
         link_adres_URL = data.werkenBijSysqaAdres
         link_corporate_website_URL = data.werkenBijSysqaCorporateWebsite
@@ -73,7 +74,27 @@ class WerkenBijSysqaKennismakenGUI (CommonTestCase):
         #Gebruiker controleert of het telefoonnummer correct werkt
         sysqa.check_navigatie_telefoon_button(tel_nummer)
 
+        #Gebruiker controleert of de Slogan correct is
+        kennis.check_kennismaken_slogan()
 
+        #Gebruiker controleert of de Naam text en box correct zijn
+        kennis.check_kennismaken_naam_text()
+        kennis.check_kennismaken_naam_box()
+
+        #Gebruiker controleert of de email text en box correct zijn
+        kennis.check_kennismaken_email_text()
+        kennis.check_kennismaken_email_box()
+
+        #Gebruiker controleert of de bericht text en box correct zijn
+        kennis.check_kennismaken_bericht_text()
+        kennis.check_kennismaken_bericht_box()
+        
+        #Gebruiker controleert of de voorwaarden correct zijn
+        kennis.check_kennismaken_voorwaarden_text(link_privacy_URL)
+
+        #Gebruiker controleert of de update text correct is
+        kennis.check_kennismaken_updates_slogan()
+        kennis.check_kennismaken_updates_text()
 
         #Gebruiker controleert of de Doe de Test button correct werkt/is
         sysqa.check_sysqa_quiz_button_footer(link_quiz_URL)
@@ -101,10 +122,10 @@ class WerkenBijSysqaKennismakenGUI (CommonTestCase):
         sysqa.check_sysqa_nieuwsbrief_aanmelden_popup_text()
 
         #Gebruiker controleert of de Nieuwsbrief aanmelden popup correct werkt
-        # sysqa.check_sysqa_nieuwsbrief_aanmelden_naam_box()
-        # sysqa.check_sysqa_nieuwsbrief_aanmelden_email_box()
-        # sysqa.check_sysqa_nieuwsbrief_aanmelden_accept_box()
-        # sysqa.check_sysqa_nieuwsbrief_aanmelden_verstuur_box()
+        sysqa.check_sysqa_nieuwsbrief_aanmelden_naam_box()
+        sysqa.check_sysqa_nieuwsbrief_aanmelden_email_box()
+        sysqa.check_sysqa_nieuwsbrief_aanmelden_accept_box()
+        sysqa.check_sysqa_nieuwsbrief_aanmelden_verstuur_box()
         # sysqa.check_sysqa_nieuwsbrief_aanmelden_verificatie_text()
 
         #Gebruiker controleert of de Social Media buttons in de footer correct zijn

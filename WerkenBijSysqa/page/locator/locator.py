@@ -55,16 +55,18 @@ class WerkenBijSysqaGUI ():
     SYSQA_AANMELDEN_NIEUWSBRIEF_BUTTON_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div/div[2]/button")
     SYSQA_NIEUWSBRIEF_POPUP = (By.XPATH, "//div[@class='box news-letter color-background-main color-text-light py-3 px-4']")
     SYSQA_NIEUWSBRIEF_POPUP_TEXT = (By.XPATH, "//div[@class='pr-5']")
-    SYSQA_NIEUWSBRIEF_POPUP_NAAM = (By.ID, "input_1")
-    SYSQA_NIEUWSBRIEF_POPUP_EMAIL = (By.ID, "input_2")
+    SYSQA_NIEUWSBRIEF_POPUP_NAAM = (By.XPATH, "/html/body/div/div/div[3]/div[2]/form/div/div[1]/div/div/input")
+    SYSQA_NIEUWSBRIEF_POPUP_EMAIL = (By.XPATH, "/html/body/div/div/div[3]/div[2]/form/div/div[2]/div/div/input")
     SYSQA_NIEUWSBRIEF_POPUP_ACCEPTEER = (By.ID, "input_accept")
-    SYSQA_NIEUWSBRIEF_POPUP_VERSTUUR = (By.XPATH, "//button[@class='button form-submit']")
-    SYSQA_NIEUWSBRIEF_POPUP_VERIFICATIE = (By.XPATH, "//div[@class='form-submission-message form-submission-message-error']")
+    SYSQA_NIEUWSBRIEF_POPUP_VERSTUUR = (By.XPATH, "//form[@class='form form_4']//button[@class='button form-submit'][contains(text(),'Versturen')]")
+    SYSQA_NIEUWSBRIEF_POPUP_VERIFICATIE = (By.XPATH, "/html/body/div/div/div[3]/div[2]/div")
     
     SYSQA_SOCIAL_MEDIA_INSTAGRAM_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[1]")
     SYSQA_SOCIAL_MEDIA_LINKEDIN_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[2]")
     SYSQA_SOCIAL_MEDIA_TWITTER_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[3]")
     SYSQA_SOCIAL_MEDIA_FACEBOOK_FOOTER = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[4]")
+
+    SYSQA_EMAIL_ICON = (By.ID, "maximizeChat")
 
 class WerkenBijSysqaVacaturesGUI ():
     SYSQA_VACATURES_SLOGAN_1 = (By.XPATH, "//strong[contains(text(),'ONZE VACATURES')]")
@@ -112,7 +114,24 @@ class WerkenBijSysqaVerhalenGUI ():
     SYSQA_VERHALEN_VACATURE_3 = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div[3]/a/div[2]/div[2]/div")
     SYSQA_VERHALEN_VACATURE_LAAD_MEER = (By.XPATH, "//a[@class='button button-line-default']")
 
+class WerkenBijSysqaKennismakenGUI ():
+    SYSQA_KENNISMAKEN_SLOGAN = (By.XPATH, "//h2[@class='title title-upper title-alt']")
+    
+    SYSQA_KENNISMAKEN_NAAM_TEXT = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[1]/div/div/label")
+    SYSQA_KENNISMAKEN_NAAM_BOX = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[1]/div/div/input")
+    SYSQA_KENNISMAKEN_EMAIL_TEXT = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[2]/div/div/label")
+    SYSQA_KENNISMAKEN_EMAIL_BOX = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[2]/div/div/input")
+    SYSQA_KENNISMAKEN_BERICHT_TEXT = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[3]/div/label")
+    SYSQA_KENNISMAKEN_BERICHT_BOX = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[3]/div/textarea")
+    SYSQA_KENNISMAKEN_VOORWAARDEN_TEXT = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[4]/div/div/div/label")
+    SYSQA_KENNISMAKEN_VOORWAARDEN_LINK = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[4]/div/div/div/label/a")
+    SYSQA_KENNISMAKEN_VOORWAARDEN_CHECKBOX = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[4]/div/div/div/input")
 
+    SYSQA_KENNISMAKEN_UPDATES_SLOGAN = (By.XPATH, "//div[@class='title title-upper title-sub-alt']")
+    SYSQA_KENNISMAKEN_UPDATES_TEXT = (By.XPATH, "//div[@class='content mt-4']")
+    SYSQA_KENNISMAKEN_AANMELDEN_NIEUWSBRIEF = (By.XPATH, "/html/body/div/div/div/div[2]/div/div[2]/button/span")
 
-
-
+    SYSQA_RECAPTCHA_IFRAME = (By.XPATH, "//iframe[@name='a-5g5gpv3752qq']")
+    SYSQA_RECAPTCHA_ACCEPT = (By.ID, "recaptcha-anchor")
+    SYSQA_RECAPTCHA_VERSTUREN = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[4]/div[3]/button")
+    
