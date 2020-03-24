@@ -25,7 +25,7 @@ homepageMobileWindowSizeWidth = 720
 homepageMobileWindowSizeHeight = 1280
 
 
-#data voor Sysqapagina
+#data voor werkenBijSysqapagina
 werkenBijSysqaPaginaHome = "https://www.werkenbijsysqa.nl/"
 werkenBijSysqaPaginaVacatures = "https://www.werkenbijsysqa.nl/vacatures"
 werkenBijSysqaPaginaVacatures2 = "https://www.werkenbijsysqa.nl/vacatures/"
@@ -129,6 +129,18 @@ kennismakenUpdatesSlogan = "UPDATES ONTVANGEN?"
 kennismakenUpdatesText = "Ontvang maandelijks de nieuwste verhalen uit onze wereld en een overzicht van onze vacatures in je mailbox!"
 kennismakenAanmeldenNieuwsbrief = "AANMELDEN NIEUWSBRIEF"
 
+#Data voor Sysqa.nl
+sysqaHomePagina = "https://www.sysqa.nl/"
+sysqaOverOnsPagina = "https://www.sysqa.nl/over-ons/"
+sysqaDienstenPagina = "https://www.sysqa.nl/diensten-sysqa/"
+sysqaBlogPagina = "https://www.sysqa.nl/blog/"
+sysqaContactPagina = "https://www.sysqa.nl/contact/"
+
+sysqaNavHome = "HOME"
+sysqaNavOver = "OVER ONS"
+sysqaNavDiensten = "DIENSTEN"
+sysqaNavBlog = "BLOG"
+sysqaNavContact = "CONTACT"
 
 
 

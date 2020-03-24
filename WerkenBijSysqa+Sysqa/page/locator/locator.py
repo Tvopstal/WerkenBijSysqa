@@ -135,3 +135,29 @@ class WerkenBijSysqaKennismakenGUI ():
     SYSQA_RECAPTCHA_ACCEPT = (By.ID, "recaptcha-anchor")
     SYSQA_RECAPTCHA_VERSTUREN = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[4]/div[3]/button")
     
+class SysqaHomeGUI ():
+    SYSQA_HOME_NAV_LOGO = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/a[1]")
+    SYSQA_HOME_NAV_HOME = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[1]/a[1]")
+    SYSQA_HOME_NAV_OVER = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[2]/a[1]")
+    SYSQA_HOME_NAV_DIENSTEN = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[3]/a[1]")
+    SYSQA_HOME_NAV_BLOG = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[4]/a[1]")
+    SYSQA_HOME_NAV_CONTACT = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[5]/a[1]")
+
+    SYSQA_HOME_TITEL = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]")
+    SYSQA_HOME_TEXT = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/div[1]/p[1]")
+    SYSQA_HOME_CONTACT_BUTTON_BOVEN = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]")
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
