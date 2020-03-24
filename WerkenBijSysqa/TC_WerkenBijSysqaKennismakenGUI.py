@@ -24,7 +24,7 @@ class WerkenBijSysqaKennismakenGUI (CommonTestCase):
         link_vacatures_URL = data.werkenBijSysqaPaginaVacatures
         link_verhalen_URL = data.werkenBijSysqaPaginaVerhalen
         # link_kennismaken_URL = data.werkenBijSysqaPaginaKennismaken
-        link_kennismaken_URL2 = data.werkenBijSysqaPaginaKennismaken2
+        # link_kennismaken_URL2 = data.werkenBijSysqaPaginaKennismaken2
         link_kennismaken_footer_URL = data.werkenBijSysqaPaginaKennismakenFooter
         tel_nummer = data.werkenBijSysqaTelefoonNummer
         # link_verhalen_en_videos_URL = data.werkenBijSysqaPaginaVerhalenEnVideos
@@ -73,7 +73,7 @@ class WerkenBijSysqaKennismakenGUI (CommonTestCase):
         #Gebruiker controleert of het telefoonnummer correct werkt
         sysqa.check_navigatie_telefoon_button(tel_nummer)
 
-        
+
 
         #Gebruiker controleert of de Doe de Test button correct werkt/is
         sysqa.check_sysqa_quiz_button_footer(link_quiz_URL)
