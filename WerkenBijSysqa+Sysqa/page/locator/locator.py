@@ -136,26 +136,65 @@ class WerkenBijSysqaKennismakenGUI ():
     SYSQA_RECAPTCHA_VERSTUREN = (By.XPATH, "/html/body/div/div/div/div[2]/div/div/div/form/div/div[4]/div[3]/button")
     
 class SysqaHomeGUI ():
-    SYSQA_HOME_NAV_LOGO = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/a[1]")
-    SYSQA_HOME_NAV_HOME = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[1]/a[1]")
-    SYSQA_HOME_NAV_OVER = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[2]/a[1]")
-    SYSQA_HOME_NAV_DIENSTEN = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[3]/a[1]")
-    SYSQA_HOME_NAV_BLOG = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[4]/a[1]")
-    SYSQA_HOME_NAV_CONTACT = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/nav[1]/div[1]/ul[1]/li[5]/a[1]")
+    SYSQA_HOME_COOKIES = (By.XPATH, "/html/body/div/div/div[5]/div[1]/a[1]")
 
-    SYSQA_HOME_TITEL = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]")
-    SYSQA_HOME_TEXT = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/div[1]/p[1]")
-    SYSQA_HOME_CONTACT_BUTTON_BOVEN = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]")
+    SYSQA_HOME_NAV_LOGO = (By.XPATH, "/html/body/div/div/nav/div/div/a[1]/img")
+    SYSQA_HOME_NAV_HOME = (By.XPATH, "/html/body/div/div/nav/div/ul/li[1]/a")
+    SYSQA_HOME_NAV_OVER = (By.XPATH, "/html/body/div/div/nav/div/ul/li[2]/a")
+    SYSQA_HOME_NAV_DIENSTEN = (By.XPATH, "/html/body/div/div/nav/div/ul/li[3]/a")
+    SYSQA_HOME_NAV_BLOG = (By.XPATH, "/html/body/div/div/nav/div/ul/li[4]/a")
+    SYSQA_HOME_NAV_CONTACT = (By.XPATH, "/html/body/div/div/nav/div/ul/li[5]/a")
+
+    SYSQA_HOME_TITEL = (By.XPATH, "/html/body/div/div/div/div/div/div/div/div/div/h1[1]")
+    SYSQA_HOME_TEXT = (By.XPATH, "/html/body/div/div/div/div/div/div/div/div/div/h3/div/p[1]")
+    SYSQA_HOME_CONTACT_BUTTON_BOVEN = (By.XPATH, "/html/body/div/div/div/div/div/div/div/div/div/a[1]")
     
+    SYSQA_HOME_IMPROVING_SLOGAN = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div/div/div/div/h2[1]")
+    SYSQA_HOME_IMPROVING_TEXT = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div/div[2]/div/p[1]")
+    SYSQA_HOME_IMPROVING_HELP = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div/div[2]/div/p[2]")
+    SYSQA_HOME_SPECIALISATIE_1 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div/div[2]/div/ul/li[1]/a")
+    SYSQA_HOME_SPECIALISATIE_2 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div/div[2]/div/ul/li[2]/a")
+    SYSQA_HOME_SPECIALISATIE_3 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div/div[2]/div/ul/li[3]/a")
+    SYSQA_HOME_SPECIALISATIE_4 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div/div[2]/div/ul/li[4]/a")
+    SYSQA_HOME_SPECIALISATIE_5 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div/div[2]/div/ul/li[5]/a")
+    SYSQA_HOME_MEER_OVER_BUTTON = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div/div[2]/div[2]/a[1]")
 
+    SYSQA_HOME_ALLE_ARTIKELEN_BUTTON = (By.XPATH, "/html/body/div/div/div/div[2]/div[3]/div[2]/a[1]")
 
+    SYSQA_HOME_FOOTER_SYSQA = (By.XPATH, "/html/body/div/div/div[2]/div/div/div/div[1]/div[1]")
+    SYSQA_HOME_FOOTER_HOME = (By.XPATH, "/html/body/div/div/div[2]/div/div/div/ul/li[1]/a")
+    SYSQA_HOME_FOOTER_OVER = (By.XPATH, "/html/body/div/div/div[2]/div/div/div/ul/li[2]/a")
+    SYSQA_HOME_FOOTER_DIENSTEN = (By.XPATH, "/html/body/div/div/div[2]/div/div/div/ul/li[3]/a")
+    SYSQA_HOME_FOOTER_BLOG = (By.XPATH, "/html/body/div/div/div[2]/div/div/div/ul/li[4]/a")
+    SYSQA_HOME_FOOTER_CONTACT = (By.XPATH, "/html/body/div/div/div[2]/div/div/div/ul/li[5]/a")
+    SYSQA_HOME_FOOTER_WERKEN_BUTTON = (By.XPATH, "/html/body/div/div/div[2]/div/div/div/a[1]")
 
+    SYSQA_HOME_FOOTER_BLOG_THEMA = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/div[1]")
+    SYSQA_HOME_FOOTER_BLOG_ONDERWERP_1 = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/div[2]/div[1]/ul/li[1]/a")
+    SYSQA_HOME_FOOTER_BLOG_ONDERWERP_2 = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/div[2]/div[1]/ul/li[2]/a")
+    SYSQA_HOME_FOOTER_BLOG_ONDERWERP_3 = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/div[2]/div[1]/ul/li[3]/a")
+    SYSQA_HOME_FOOTER_BLOG_ONDERWERP_4 = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/div[2]/div[1]/ul/li[4]/a")
+    SYSQA_HOME_FOOTER_BLOG_ONDERWERP_5 = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/div[2]/div[1]/ul/li[5]/a")
+    SYSQA_HOME_FOOTER_BLOG_ONDERWERP_6 = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/div[2]/div[2]/ul/li[1]/a")
+    SYSQA_HOME_FOOTER_BLOG_ONDERWERP_7 = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/div[2]/div[2]/ul/li[2]/a")
+    SYSQA_HOME_FOOTER_BLOG_ONDERWERP_8 = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/div[2]/div[2]/ul/li[3]/a")
+    SYSQA_HOME_FOOTER_BLOG_ONDERWERP_9 = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/div[2]/div[2]/ul/li[4]/a")
+    SYSQA_HOME_FOOTER_BLOG_ONDERWERP_10 = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[2]/div/div[2]/div[2]/ul/li[5]/a")
 
+    SYSQA_HOME_FOOTER_CONTACT = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div[1]")
+    SYSQA_HOME_FOOTER_CONTACT_ADRES = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div[2]")
+    SYSQA_HOME_FOOTER_CONTACT_MAPS = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div[3]/div[1]/a")
+    SYSQA_HOME_FOOTER_CONTACT_TELEFOON = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div[3]/div[2]/a")
+    SYSQA_HOME_FOOTER_CONTACT_EMAIL = (By.XPATH, "/html/body/div/div/div[2]/div/div/div[3]/div[3]/div[3]/a")
+    SYSQA_HOME_FOOTER_CONTACT_NIEUWSBRIEF = (By.XPATH, "/html/body/div/div/div[2]/div/div[2]/button/span")
 
-
-
-
-
+    SYSQA_HOME_NIEUWSBRIEF_POPUP_TEXT = (By.XPATH, "/html/body/div[2]/div/div[3]/div[1]")
+    SYSQA_HOME_NIEUWSBRIEF_POPUP_NAAM = (By.XPATH, "/html/body/div[2]/div/div[3]/div[2]/form/div/div/div/div/input")
+    SYSQA_HOME_NIEUWSBRIEF_POPUP_EMAIL = (By.XPATH, "/html/body/div[2]/div/div[3]/div[2]/form/div/div[2]/div/div/input")
+    SYSQA_HOME_NIEUWSBRIEF_POPUP_VOORWAARDEN = (By.XPATH, "/html/body/div[2]/div/div[3]/div[2]/form/div/div[3]/div/div/div/label/a")
+    SYSQA_HOME_NIEUWSBRIEF_POPUP_CHECKBOX = (By.XPATH, "/html/body/div[2]/div/div[3]/div[2]/form/div/div[3]/div/div/div/input")
+    SYSQA_HOME_NIEUWSBRIEF_POPUP_VERSTUREN = (By.XPATH, "/html/body/div[2]/div/div[3]/div[2]/form/div/div[3]/div[2]/button")
+    SYSQA_HOME_NIEUWSBRIEF_POPUP_ERROR = (By.XPATH, "/html/body/div[2]/div/div[3]/div[2]/div")
 
 
 

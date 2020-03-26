@@ -132,15 +132,119 @@ kennismakenAanmeldenNieuwsbrief = "AANMELDEN NIEUWSBRIEF"
 #Data voor Sysqa.nl
 sysqaHomePagina = "https://www.sysqa.nl/"
 sysqaOverOnsPagina = "https://www.sysqa.nl/over-ons/"
+sysqaOverOnsPaginaZonder = "https://www.sysqa.nl/over-ons"
 sysqaDienstenPagina = "https://www.sysqa.nl/diensten-sysqa/"
+sysqaDienstenPaginaZonder = "https://www.sysqa.nl/diensten-sysqa"
 sysqaBlogPagina = "https://www.sysqa.nl/blog/"
+sysqaBlogPaginaZonder = "https://www.sysqa.nl/blog"
 sysqaContactPagina = "https://www.sysqa.nl/contact/"
+sysqaContactPaginaZonder = "https://www.sysqa.nl/contact"
+sysqaRequirementsPagina = "https://www.sysqa.nl/requirements-altijd-centraal-bij-software-ontwikkeling/"
+sysqaTestenPagina = "https://www.sysqa.nl/software-testen/"
+sysqaTestautomatiseringPagina = "https://www.sysqa.nl/testautomatisering-testtooling/"
+sysqaAgilePagina = "https://www.sysqa.nl/succesfactoren-voor-agile-projecten/"
+sysqaSecurityPagina = "https://www.sysqa.nl/it-security-informatiebeveiliging/"
+sysqaWerkenBijPagina = "https://www.werkenbijsysqa.nl/"
+sysqaPrivacyPagina = "https://www.sysqa.nl/privacy-policy/"
+sysqaPrivacyPaginaZonder = "https://www.sysqa.nl/privacy-policy"
+sysqaAdresLink = "https://www.google.com/maps/dir/?api=1&destination=Regulierenring+10,+3981%20LB+Bunnik&travelmode=driving"
+sysqaGoogleMapsLink = "https://goo.gl/maps/bZpgukshDqG3KVSc8"
+sysqaTelefoonLink = "tel:088 0280899"
+sysqaEmailLink = "mailto:info@sysqa.nl"
+
+sysqaBlogOnderwerpPagina1 = "https://www.sysqa.nl/blog/#agile"
+sysqaBlogOnderwerpPagina2 = "https://www.sysqa.nl/blog/#cases"
+sysqaBlogOnderwerpPagina3 = "https://www.sysqa.nl/blog/#download"
+sysqaBlogOnderwerpPagina4 = "https://www.sysqa.nl/blog/#events"
+sysqaBlogOnderwerpPagina5 = "https://www.sysqa.nl/blog/#it-quality-assurance"
+sysqaBlogOnderwerpPagina6 = "https://www.sysqa.nl/blog/#it-security"
+sysqaBlogOnderwerpPagina7 = "https://www.sysqa.nl/blog/#requirements-engineering"
+sysqaBlogOnderwerpPagina8 = "https://www.sysqa.nl/blog/#software-testen"
+sysqaBlogOnderwerpPagina9 = "https://www.sysqa.nl/blog/#testautomatisering"
+sysqaBlogOnderwerpPagina10 = "https://www.sysqa.nl/blog/#vacatures"
 
 sysqaNavHome = "HOME"
 sysqaNavOver = "OVER ONS"
 sysqaNavDiensten = "DIENSTEN"
 sysqaNavBlog = "BLOG"
 sysqaNavContact = "CONTACT"
+
+sysqaHomeSlogan = "SYSQA – IT QUALITY\nASSURANCE"
+sysqaHomeSloganText = "Professionals die de kwaliteit en veiligheid van jouw IT verbeteren."
+sysqaHomeContactButtonBoven = "KOM MET ONS IN CONTACT"
+
+sysqaHomeImprovingSlogan = "IMPROVING YOUR DIGITAL WORLD"
+sysqaHomeImprovingText = "SYSQA is een onafhankelijke specialist op het gebied van Quality Assurance, kwaliteitsmanagement in Business en IT. We geven starters en young professionals de kans zich heel snel te ontwikkelen tot professionals die aantoonbare, verrassende meerwaarde leveren op het gebied van kwaliteit en veiligheid van de IT in jouw organisatie."
+sysqaHomeImprovingHelp = "We helpen je met:"
+sysqaHomeSpecialisatie1 = "Requirements Engineering en Business Analyse"
+sysqaHomeSpecialisatie2 = "Software Testen en Testmanagement"
+sysqaHomeSpecialisatie3 = "Testautomatisering en Tooling"
+sysqaHomeSpecialisatie4 = "Agile"
+sysqaHomeSpecialisatie5 = "IT Security"
+sysqaHomeMeerOverButton = "MEER OVER SYSQA"
+
+sysqaHomeAlleArtikelenButton = "BEKIJK AL ONZE ARTIKELEN"
+
+sysqaHomeFooterSysqa = "SYSQA"
+sysqaHomeFooterWerkenButton = "WERKEN BIJ SYSQA"
+
+sysqaHomeFooterBlogThema = "BLOG THEMA'S"
+sysqaHomeFooterBlogOnderwerp1 = "AGILE"
+sysqaHomeFooterBlogOnderwerp2 = "CASES"
+sysqaHomeFooterBlogOnderwerp3 = "DOWNLOAD"
+sysqaHomeFooterBlogOnderwerp4 = "EVENTS"
+sysqaHomeFooterBlogOnderwerp5 = "IT QUALITY ASSURANCE"
+sysqaHomeFooterBlogOnderwerp6 = "IT SECURITY"
+sysqaHomeFooterBlogOnderwerp7 = "REQUIREMENTS"
+sysqaHomeFooterBlogOnderwerp8 = "SOFTWARE TESTEN"
+sysqaHomeFooterBlogOnderwerp9 = "TESTAUTOMATISERING"
+sysqaHomeFooterBlogOnderwerp10 = "VACATURES"
+
+sysqaHomeFooterContact = "CONTACT"
+sysqaHomeFooterContactAdres = "Regulierenring 10\n3981 LB Bunnik"
+sysqaHomeFooterContactMaps = "Google Maps"
+sysqaHomeFooterContactTel = "088 0280899"
+sysqaHomeFooterContactEmail = "info@sysqa.nl"
+sysqaHomeFooterContactNieuwsbrief = "AANMELDEN NIEUWSBRIEF"
+
+sysqaNieuwsbriefPopupText = "UPDATES ONTVANGEN?\nOntvang maandelijks de nieuwste verhalen uit onze wereld en een overzicht van onze vacatures in je mailbox!"
+sysqaNieuwsbriefPopupNaam = "voor- en achternaam"
+sysqaNieuwsbriefPopupEmail = "e-mailadres"
+sysqaNieuwsbriefPopupVoorwaarden = "voorwaarden"
+sysqaNieuwsbriefPopupVersturen = "VERSTUREN"
+sysqaNieuwsbriefPopupError = "Dit veld vereist een unieke inzending en 'tvanopstal@sysqa.nl' is al gebruikt"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
