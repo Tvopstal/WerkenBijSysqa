@@ -43,12 +43,12 @@ class Sysqa (BasePage):
                 print ("ERROR: Sysqa Logo is niet aanklikbaar")
         elif element == False:
             print ("ERROR: Sysqa Logo is niet aanwezig op pagina")
-        # link = element2.get_attribute("href")
-        # print (link)
-        # if link == data.sysqaHomePagina:
-        #     print ("CORRECT: Link is correct")
-        # else:
-        #     print ("ERROR: Link is niet correct")
+        link = element2.get_attribute("href")
+        print (link)
+        if link == data.sysqaHomePagina:
+            print ("CORRECT: Link is correct")
+        else:
+            print ("ERROR: Link is niet correct")
 
     def check_navigatie_sysqa_home (self):
         logging.info("Er wordt gecontroleerd of de Sysqa home button correct werkt")
