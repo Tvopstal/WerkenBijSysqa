@@ -44,6 +44,58 @@ class SysqaOverGUI (CommonTestCase):
         sysqa.check_navigatie_sysqa_blog()
         sysqa.check_navigatie_sysqa_contact()
 
+        #Gebruiker controleert slogan + contact boven of de correct is
+        over.check_sysqa_over_slogan()
+        over.check_sysqa_over_contact_button_boven()
+        
+        #Gebruiker controleert of de text correct is
+        over.check_sysqa_over_text()
+
+        #Gebruiker controleert of de improving + specialisatie correct is
+        over.check_sysqa_over_improving_slogan()
+        over.check_sysqa_over_improving_text_1()
+        over.check_sysqa_over_improving_text_2()
+        over.check_sysqa_over_specialisatie_1()
+        over.check_sysqa_over_specialisatie_2()
+        over.check_sysqa_over_specialisatie_3()
+        over.check_sysqa_over_specialisatie_4()
+        over.check_sysqa_over_specialisatie_5()
+        over.check_sysqa_over_specialisatie_text()
+
+        #Gebruiker controleert of de video correct is
+        over.check_sysqa_over_video_text()
+        over.check_sysqa_over_video()
+
+        #Gebruiker controleert of de vakgebieden correct is
+        over.check_sysqa_over_vakgebieden_titel()
+        over.check_sysqa_over_vakgebieden_text_1()
+        over.check_sysqa_over_vakgebieden_text_lijst_1()
+        over.check_sysqa_over_vakgebieden_text_lijst_2()
+        over.check_sysqa_over_vakgebieden_text_lijst_3()
+        over.check_sysqa_over_vakgebieden_text_2()
+        over.check_sysqa_over_professionals_titel()
+        over.check_sysqa_over_professionals_text()
+
+        #Gebruiker controleert of de dna correct is
+        over.check_sysqa_over_dna_titel()
+        over.check_sysqa_over_dna_text()
+
+        #Gebruiker controleert of de 3 kolommen correct is
+        over.check_sysqa_over_betekenis_titel()
+        over.check_sysqa_over_betekenis_text_1()
+        over.check_sysqa_over_betekenis_text_2()
+        over.check_sysqa_over_verbinding_titel()
+        over.check_sysqa_over_verbinding_text_1()
+        over.check_sysqa_over_verbinding_text_2()
+        over.check_sysqa_over_ontwikkeling_titel()
+        over.check_sysqa_over_ontwikkeling_text_1()
+        over.check_sysqa_over_ontwikkeling_text_2()
+        over.check_sysqa_over_contact_onder()
+
+        #Gebruiker controleert of de blog correct is
+        over.check_sysqa_over_blog_titel()
+        over.check_sysqa_over_blog_artikelen()
+        
         #Gebruiker controleert of de footer navigatie correct is
         sysqa.check_sysqa_home_footer_sysqa()
         sysqa.check_sysqa_home_footer_home()
@@ -82,7 +134,11 @@ class SysqaOverGUI (CommonTestCase):
         sysqa.check_sysqa_home_nieuwsbrief_popup_versturen()
         sysqa.check_sysqa_home_nieuwsbrief_popup_error()
         
-
+        #Gebruiker controleert of de socials correct zijn
+        sysqa.check_sysqa_instagram_button_footer()
+        sysqa.check_sysqa_linkedin_button_footer()
+        sysqa.check_sysqa_twitter_button_footer()
+        sysqa.check_sysqa_facebook_button_footer()
 
 
 

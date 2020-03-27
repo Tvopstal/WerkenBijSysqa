@@ -196,7 +196,56 @@ class SysqaHomeGUI ():
     SYSQA_HOME_NIEUWSBRIEF_POPUP_VERSTUREN = (By.XPATH, "/html/body/div[2]/div/div[3]/div[2]/form/div/div[3]/div[2]/button")
     SYSQA_HOME_NIEUWSBRIEF_POPUP_ERROR = (By.XPATH, "/html/body/div[2]/div/div[3]/div[2]/div")
 
+    SYSQA_HOME_FOOTER_SOCIAL_INSTAGRAM = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[1]")
+    SYSQA_HOME_FOOTER_SOCIAL_LINKEDIN = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[2]")
+    SYSQA_HOME_FOOTER_SOCIAL_TWITTER = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[3]")
+    SYSQA_HOME_FOOTER_SOCIAL_FACEBOOK = (By.XPATH, "/html/body/div/div/div[2]/div[2]/div/div/div/a[4]")
 
+class SysqaOverGUI ():
+    SYSQA_OVER_TITEL = (By.XPATH, "/html/body/div/div/div/div/div/div/div/div/div/h1/div/p/strong")
+    SYSQA_OVER_CONTACT_BOVEN = (By.XPATH, "/html/body/div/div/div/div/div/div/div/div/div/a")
 
+    SYSQA_OVER_TEXT = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div")
 
+    SYSQA_OVER_IMPROVING_SLOGAN = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div[2]/div/div/div/h2[1]")
+    SYSQA_OVER_IMPROVING_TEXT_1 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div[2]/div[2]/p[1]")
+    SYSQA_OVER_IMPROVING_TEXT_2 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div[2]/div[2]/p[2]")
+    SYSQA_OVER_SPECIALISATIE_1 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div[2]/div[2]/ul/li[1]/a")
+    SYSQA_OVER_SPECIALISATIE_2 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div[2]/div[2]/ul/li[2]/a")
+    SYSQA_OVER_SPECIALISATIE_3 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a")
+    SYSQA_OVER_SPECIALISATIE_4 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div[2]/div[2]/ul/li[4]/a")
+    SYSQA_OVER_SPECIALISATIE_5 = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div[2]/div[2]/ul/li[5]/a")
+    SYSQA_OVER_SPECIALISATIE_TEXT = (By.XPATH, "/html/body/div/div/div/div[2]/div[2]/div[2]/div[2]/p[3]")
 
+    SYSQA_OVER_VIDEO_TEXT = (By.XPATH, "/html/body/div/div/div/div[3]/div/div/div/div/div/span/div/h2[1]")
+    SYSQA_OVER_VIDEO = (By.XPATH, "/html/body/div/div/div/div[3]/div/div/div[2]/div/iframe[1]")
+
+    SYSQA_OVER_VAKGEBIEDEN_TITEL = (By.XPATH, "/html/body/div/div/div/div[4]/div/div[2]/h2[1]")
+    SYSQA_OVER_VAKGEBIEDEN_TEXT_1 = (By.XPATH, "/html/body/div/div/div/div[4]/div/div[2]/div/div/div/div/p[1]")
+    SYSQA_OVER_VAKGEBIEDEN_TEXT_LIJST_1 = (By.XPATH, "/html/body/div/div/div/div[4]/div/div[2]/div/div/div/div/div/div/div/div/ul/li[1]")
+    SYSQA_OVER_VAKGEBIEDEN_TEXT_LIJST_2 = (By.XPATH, "/html/body/div/div/div/div[4]/div/div[2]/div/div/div/div/div/div/div/div/ul/li[2]")
+    SYSQA_OVER_VAKGEBIEDEN_TEXT_LIJST_3 = (By.XPATH, "/html/body/div/div/div/div[4]/div/div[2]/div/div/div/div/div/div/div/div/ul/li[3]")
+    SYSQA_OVER_VAKGEBIEDEN_TEXT_2 = (By.XPATH, "/html/body/div/div/div/div[4]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/p[1]")
+    
+    SYSQA_OVER_PROFESSIONALS_TITEL = (By.XPATH, "/html/body/div/div/div/div[4]/div/div[2]/h2[2]")
+    SYSQA_OVER_PROFESSIONALS_TEXT = (By.XPATH, "/html/body/div/div/div/div[4]/div/div[2]/div[2]/div/div/div/p[1]")
+
+    SYSQA_OVER_DNA_TITEL = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div/h2[1]")
+    SYSQA_OVER_DNA_TEXT = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div/div[1]")
+
+    SYSQA_OVER_BETEKENIS_TITEL = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div[2]/div[4]/div[3]/h4")
+    SYSQA_OVER_BETEKENIS_TEXT_1 = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div[2]/div[4]/div[3]/div[1]")
+    SYSQA_OVER_BETEKENIS_TEXT_2 = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div[2]/div[4]/div[3]/div[2]")
+
+    SYSQA_OVER_VERBINDING_TITEL = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div[2]/div[5]/div[3]/h4[1]")
+    SYSQA_OVER_VERBINDING_TEXT_1 = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div[2]/div[5]/div[3]/div[1]")
+    SYSQA_OVER_VERBINDING_TEXT_2 = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div[2]/div[5]/div[3]/div[2]")
+
+    SYSQA_OVER_ONTWIKKELING_TITEL = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div[2]/div[6]/div[3]/h4[1]")
+    SYSQA_OVER_ONTWIKKELING_TEXT_1 = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div[2]/div[6]/div[3]/div[1]")
+    SYSQA_OVER_ONTWIKKELING_TEXT_2 = (By.XPATH, "/html/body/div/div/div/div[5]/div/div/div[2]/div[6]/div[3]/div[2]")
+
+    SYSQA_OVER_CONTACT_ONDER = (By.XPATH, "/html/body/div/div/div/div[5]/div/div[2]/a[1]")
+
+    SYSQA_OVER_BLOG_TITEL = (By.XPATH, "/html/body/div/div/div/div[6]/h2[1]")
+    SYSQA_OVER_BLOG_ALLE_ARTIKELEN = (By.XPATH, "/html/body/div/div/div/div[6]/div[2]/a[1]")

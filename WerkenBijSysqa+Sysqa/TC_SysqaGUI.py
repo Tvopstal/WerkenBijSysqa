@@ -102,6 +102,11 @@ class SysqaGUI (CommonTestCase):
         sysqa.check_sysqa_home_nieuwsbrief_popup_versturen()
         sysqa.check_sysqa_home_nieuwsbrief_popup_error()
         
+        #Gebruiker controleert of de socials correct zijn
+        sysqa.check_sysqa_instagram_button_footer()
+        sysqa.check_sysqa_linkedin_button_footer()
+        sysqa.check_sysqa_twitter_button_footer()
+        sysqa.check_sysqa_facebook_button_footer()
 
 
 

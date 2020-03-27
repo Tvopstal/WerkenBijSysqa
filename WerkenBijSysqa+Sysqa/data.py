@@ -151,6 +151,11 @@ sysqaAdresLink = "https://www.google.com/maps/dir/?api=1&destination=Regulierenr
 sysqaGoogleMapsLink = "https://goo.gl/maps/bZpgukshDqG3KVSc8"
 sysqaTelefoonLink = "tel:088 0280899"
 sysqaEmailLink = "mailto:info@sysqa.nl"
+sysqaSocialInstagram = "https://www.instagram.com/sysqa_bv/?hl=nl"
+sysqaSocialLinkedin = "https://www.linkedin.com/company/sysqa/?originalSubdomain=nl"
+sysqaSocialTwitter = "https://twitter.com/sysqa_bv"
+sysqaSocialFacebook = "https://www.facebook.com/SYSQA/"
+
 
 sysqaBlogOnderwerpPagina1 = "https://www.sysqa.nl/blog/#agile"
 sysqaBlogOnderwerpPagina2 = "https://www.sysqa.nl/blog/#cases"
@@ -214,37 +219,50 @@ sysqaNieuwsbriefPopupVoorwaarden = "voorwaarden"
 sysqaNieuwsbriefPopupVersturen = "VERSTUREN"
 sysqaNieuwsbriefPopupError = "Dit veld vereist een unieke inzending en 'tvanopstal@sysqa.nl' is al gebruikt"
 
+#Data voor Sysqa Over
+sysqaOverTitel = "OVER ONS"
+sysqaOverContactBoven = "KOM MET ONS IN CONTACT"
 
+sysqaOverText = "SYSQA is een onafhankelijke specialist op het gebied van Quality Assurance, kwaliteitsmanagement in Business en IT. We geven starters en young professionals de kans zich heel snel te ontwikkelen tot professionals die aantoonbare, verrassende meerwaarde leveren op het gebied van kwaliteit en veiligheid van IT bij onze opdrachtgevers."
 
+sysqaOverImprovingTitel = "IMPROVING YOUR DIGITAL WORLD"
+sysqaOverImprovingText1 = "We leven in een samenleving die digitaliseert. Alles en iedereen raakt (digitaal) met elkaar verbonden en digitale innovaties zijn noodzakelijk en van grote impact op ons allemaal. In die wereld testen, bewaken en verbeteren we de kwaliteit en veiligheid van IT-toepassingen in de meest uiteenlopende branches. Zodat IT een zinvolle bijdrage aan de maatschappij levert, zonder onacceptabele risico’s. Het is onze ambitie de digitale wereld van onze klanten, hun klanten, van ons allemaal te verbeteren."
+sysqaOverImprovingText2 = "We geven inzicht in en borgen de kwaliteit en veiligheid van je IT. We verkorten doorlooptijden, voorkomen onnodige herstelkosten, voorkomen uitloop van je projecten en vergroten je klanttevredenheid. Dat doen we door het toepassen van:"
+sysqaOverSpecialisatie1 = "Requirements Engineering en Business Analyse"
+sysqaOverSpecialisatie2 = "Software Testen en Testmanagement"
+sysqaOverSpecialisatie3 = "Testautomatisering en Tooling"
+sysqaOverSpecialisatie4 = "Agile"
+sysqaOverSpecialisatie5 = "IT Security"
+sysqaOverSpecialisatieText = "Privacy, Agile, Scrum, DevOps, Blockchain, IoT, Cloud, Mobile Apps, Automatisering, Robotisering etc…. Onze professionals hebben er ervaring mee en passen het toe in onze dienstverlening. ‘Experience meets innovation’. Ook toekomstige ontwikkelingen maken we ons snel eigen, we weten precies hoe we in het licht van of met behulp van deze ontwikkelingen je digitale wereld kunnen verbeteren."
 
+sysqaOverVideoText = "KWALITEIT EN VEILIGHEID VAN IT IN EEN DIKKE MINUUT"
 
+sysqaOverVakgebiedenTitel = "DETACHERING, CONSULTANCY, RESULTAATVERPLICHTING"
+sysqaOverVakgebiedenText1 = "We voeren uit, we leiden op, we coachen, we onderzoeken en adviseren. Dat doen onze professionals op basis van:"
+sysqaOverVakgebiedenTextLijst1 = "Detachering"
+sysqaOverVakgebiedenTextLijst2 = "Consultancy"
+sysqaOverVakgebiedenTextLijst3 = "Resultaat verplichte opdrachten"
+sysqaOverVakgebiedenText2 = "We zijn ISO-9001 gecertificeerd, geaccrediteerd EXIN examencenter, trainingscenter en trainingspartner en IREB Training Provider."
 
+sysqaOverProfessionalsTitel = "TALENTVOLLE PROFESSIONALS"
+sysqaOverProfessionalsText = "Het is onze kracht dié professionals te werven, selecteren, op te leiden en te begeleiden die perfect bij jou en je organisatie passen. Ze zijn hoogopgeleid, beschikken over een bovengemiddeld analytisch vermogen en de juiste soft skills en zijn snel productief. We leggen de lat hoog en nemen alleen de grootste talenten aan."
 
+sysqaOverDnaTitel = "HET DNA VAN SYSQA"
+sysqaOverDnaText = "Wij willen voor onze klanten en voor onszelf van betekenis zijn, verbinding brengen en ontwikkeling bevorderen. Dit zit in ons DNA. Hieraan toetsen we alles wat we doen."
 
+sysqaOverBetekenisTitel = "IS VAN BETEKENIS"
+sysqaOverBetekenisText1 = "Voor jou, onze klanten, de maatschappij en onze medewerkers. Door ervoor te zorgen dat de ICT in technologische oplossingen en digitale innovaties zo goed is dat we er met z’n allen de meerwaarde van ondervinden."
+sysqaOverBetekenisText2 = "Maar ook door ons in te zetten voor bijzondere projecten met een maatschappelijk karakter en door onze medewerkers kansen en (opleidings-) mogelijkheden te bieden waarin zij zich kunnen ontplooien in de richting die zij ambiëren."
 
+sysqaOverVerbindingTitel = "BRENGT VERBINDING"
+sysqaOverVerbindingText1 = "Tussen opdrachtgever en opdrachtnemer, business en ICT, onze klanten en hun klanten, onszelf en partijen waarmee we samenwerken en collega’s onderling."
+sysqaOverVerbindingText2 = "Omdat we de langetermijnrelatie belangrijker vinden dan het korte termijn resultaat. Dit doen we onder meer door vertrouwen, openheid en transparantie boven politieke correctheid te stellen en door kennis te delen in plaats van het voor onszelf te houden."
 
+sysqaOverOntwikkelingTitel = "BEVORDERT ONTWIKKELING"
+sysqaOverOntwikkelingText1 = "Gebruikmakend van hun uiteenlopende achtergronden ontwikkelen we gedreven starters razendsnel tot professionals van bovengemiddelde betekenis."
+sysqaOverOntwikkelingText2 = "We spelen onze meest ervaren consultants vrij om naast hun strategische en tactische consultancy te investeren in talent -en consultancy development."
 
+sysqaOverContactOnder = "KOM MET ONS IN CONTACT"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+sysqaOverBlogTitel = "BLOG"
+sysqaOverBlogArtikelen = "BEKIJK AL ONZE ARTIKELEN"

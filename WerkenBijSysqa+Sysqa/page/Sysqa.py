@@ -1100,6 +1100,83 @@ class Sysqa (BasePage):
         else:
             print("ERROR: Sysqa nieuwsbrief popup error is niet aanwezig op pagina")
 
+    def check_sysqa_instagram_button_footer (self):
+        logging.info("Er wordt gecontroleerd of de Instagram button correct werkt")
+        element = (self.find_element_boolean(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_INSTAGRAM))
+        if element == True:
+            print("CORRECT: Instagram button is aanwezig op pagina")
+            if self.return_clickable(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_INSTAGRAM) == True:
+                print ("CORRECT: Instagram button is aanklikbaar")
+            elif self.return_clickable(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_INSTAGRAM) == False:
+                print ("ERROR: Instagram button is niet aanklikbaar")
+        elif element == False:
+            print ("ERROR: Instagram button is niet aanwezig op pagina")
+        element2 = (self.find(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_INSTAGRAM))
+        link = element2.get_attribute("href")
+        print (link)
+        if link == data.sysqaSocialInstagram:
+            print ("CORRECT: Link is correct")
+        else:
+            print ("ERROR: Link is niet correct")
+
+    def check_sysqa_linkedin_button_footer (self):
+        logging.info("Er wordt gecontroleerd of de Linkedin button correct werkt")
+        element = (self.find_element_boolean(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_LINKEDIN))
+        if element == True:
+            print("CORRECT: Linkedin button is aanwezig op pagina")
+            if self.return_clickable(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_LINKEDIN) == True:
+                print ("CORRECT: Linkedin button is aanklikbaar")
+            elif self.return_clickable(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_LINKEDIN) == False:
+                print ("ERROR: Linkedin button is niet aanklikbaar")
+        elif element == False:
+            print ("ERROR: Linkedin button is niet aanwezig op pagina")
+        element2 = (self.find(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_LINKEDIN))
+        link = element2.get_attribute("href")
+        print (link)
+        if link == data.sysqaSocialLinkedin:
+            print ("CORRECT: Link is correct")
+        else:
+            print ("ERROR: Link is niet correct")
+
+    def check_sysqa_twitter_button_footer (self):
+        logging.info("Er wordt gecontroleerd of de Twitter button correct werkt")
+        element = (self.find_element_boolean(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_TWITTER))
+        if element == True:
+            print("CORRECT: Twitter button is aanwezig op pagina")
+            if self.return_clickable(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_TWITTER) == True:
+                print ("CORRECT: Twitter button is aanklikbaar")
+            elif self.return_clickable(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_TWITTER) == False:
+                print ("ERROR: Twitter button is niet aanklikbaar")
+        elif element == False:
+            print ("ERROR: Twitter button is niet aanwezig op pagina")
+        element2 = (self.find(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_TWITTER))
+        link = element2.get_attribute("href")
+        print (link)
+        if link == data.sysqaSocialTwitter:
+            print ("CORRECT: Link is correct")
+        else:
+            print ("ERROR: Link is niet correct")
+
+    def check_sysqa_facebook_button_footer (self):
+        logging.info("Er wordt gecontroleerd of de Facebook button correct werkt")
+        element = (self.find_element_boolean(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_FACEBOOK))
+        if element == True:
+            print("CORRECT: Facebook button is aanwezig op pagina")
+            if self.return_clickable(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_FACEBOOK) == True:
+                print ("CORRECT: Facebook button is aanklikbaar")
+            elif self.return_clickable(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_FACEBOOK) == False:
+                print ("ERROR: Facebook button is niet aanklikbaar")
+        elif element == False:
+            print ("ERROR: Facebook button is niet aanwezig op pagina")
+        element2 = (self.find(loc.SysqaHomeGUI.SYSQA_HOME_FOOTER_SOCIAL_FACEBOOK))
+        link = element2.get_attribute("href")
+        print (link)
+        if link == data.sysqaSocialFacebook:
+            print ("CORRECT: Link is correct")
+        else:
+            print ("ERROR: Link is niet correct")
+
+
 
 
 
