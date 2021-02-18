@@ -1,4 +1,6 @@
 from selenium import webdriver
+from selenium.webdriver import Edge
+from selenium.webdriver.edge.options import Options
 from selenium.webdriver import Ie, IeOptions
 from selenium.webdriver.ie.options import Options
 from selenium.webdriver.firefox.options import Options
@@ -38,20 +40,20 @@ from selenium.webdriver.common.action_chains import ActionChains
 #         self.wait = WebDriverWait(self, waittime)
 #         self.actions = ActionChains(self)
     
-class Driver_FF_headless (webdriver.Firefox):
-    def __init__(self):
-        logging.info("Setting Driver Options")
-        opts = Options()
-        opts.headless = False
-        # opts.log.level = "info"
-        # opts.add_experimental_option("detach", True)
-        # opts.add_extension("C:\\Users\\ADM-AD-VOSM04\\Desktop\\MARS2MV\\TOPDeskRepo\\ChroPath_v5.0.3.crx")
-        super().__init__()
-        #,ignored_exceptions=data.ignored_exceptions
-        waittime=20
-        self.wait = WebDriverWait(self, waittime)
-        self.wait_short = WebDriverWait(self, 5)
-        self.actions = ActionChains(self)
+# class Driver_FF_headless (webdriver.Firefox):
+#     def __init__(self):
+#         logging.info("Setting Driver Options")
+#         opts = Options()
+#         opts.headless = False
+#         # opts.log.level = "info"
+#         # opts.add_experimental_option("detach", True)
+#         # opts.add_extension("C:\\Users\\ADM-AD-VOSM04\\Desktop\\MARS2MV\\TOPDeskRepo\\ChroPath_v5.0.3.crx")
+#         super().__init__()
+#         #,ignored_exceptions=data.ignored_exceptions
+#         waittime=20
+#         self.wait = WebDriverWait(self, waittime)
+#         self.wait_short = WebDriverWait(self, 5)
+#         self.actions = ActionChains(self)
 
 class Driver_Chrome (webdriver.Chrome):
     def __init__(self):
@@ -70,6 +72,22 @@ class Driver_Chrome (webdriver.Chrome):
         self.wait_short = WebDriverWait(self, 5)
         self.actions = ActionChains(self)
 
+# class Driver_Edge (webdriver.Edge):
+#     def __init__(self):
+#         logging.info("Setting Driver Options")
+#         opts = webdriver.Edge()
+#         opts.add_argument("--headless")
+#         opts.headless = False
+#         # opts.add_extension("C:\\Users\\Michiel\\Desktop\\testInlog\\testInlog.crx")
+#         # opts.log.level = "info"
+#         # opts.add_experimental_option("detach", True)
+#         # opts.add_extension("C:\\Users\\mvos\\Desktop\\Drivers etc\\Drivers\\ChroPath.crx")
+#         super().__init__(options=opts)
+#         #,ignored_exceptions=data.ignored_exceptions
+#         waittime=20
+#         self.wait = WebDriverWait(self, waittime)
+#         self.wait_short = WebDriverWait(self, 5)
+#         self.actions = ActionChains(self)
 
 # class Driver_Ie (webdriver.Ie):
 #     def __init__(self, waittime=10):
